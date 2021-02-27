@@ -27,10 +27,18 @@ td {
     border-right: 5px solid #6E75CE;
 }
 
+.table-head-item:hover {
+    background-color: #6E75CE;
+    color: #FFF4A7;
+    cursor: pointer;
+}
+
 .head-active {
     background-color: #6E75CE;
     color: #FFF4A7;
 }
+
+
 
 .main-table-lessons {
     border-collapse: collapse;
