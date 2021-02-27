@@ -1,0 +1,41 @@
+.main-blok-timetable {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: white;
+    border-right: 5px dashed #3D418E;
+    border-left: 5px dashed #3D418E;
+}
+
+.timetable-item {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    width: 250px;
+    border: 5px solid #6E75CE;
+    border-radius: 15px;
+}
+
+.timetable-item:not(:nth-child(3n)) {
+    margin-right: 40px;
+}
+
+.timetable-item-day,
+.timetable-item-subject {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.timetable-item-day {
+    color: white;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: #B6B1F2;
+}
+
+.timetable-item-subject {
+    background-image: url(../img/line-sub.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom;
+}

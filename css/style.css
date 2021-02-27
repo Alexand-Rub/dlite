@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito";
+    color: #3D418E;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #6E75CE;
+    box-shadow: 0px 6px 4px #CBCEF2;
+    margin-bottom: 5px;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.header-blok {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header-nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.header-nav-item {
+    border-bottom: 7px solid #6E75CE;
+    border-top: 7px solid #6E75CE;
+}
+
+.header-nav-item {
+    padding: 10px 0;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-nav-link {
+    font-size: 25px;
+    color: white;
+}
+
+.active-list {
+    background-image: url(../img/border.png);
+    background-repeat: no-repeat;
+    background-size: 100% 7px;
+    background-position: bottom;
+}
+
+.header-options {
+    display: flex;
+}
+
+/* .header-options-configure,
+.header-options-notice {
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-options-notice {
+    margin-right: 20px;
+    background-image: url(../img/notice.png)    
+}
+
+.header-options-configure {
+    background-image: url(../img/configure.png);
+} */
+
+.header_account {
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #3D418E;
+    border-radius: 20px;
+    background: #FFF4A7;
+}
+
+.main {
+    background-image: url(../img/main-bg.jpg);
+}
+
+.left-btn,
+.right-btn {
+    margin-top: 30px;
+    width: 55px;
+    height: 61px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.left-btn {
+    margin-right: 10px;
+    background-image: url(../img/left-btn.png);
+}
+
+.right-btn {
+    margin-left: 10px;
+    background-image: url(../img/right-btn.png);
+}
+
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main-blok-diary {
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    border-right: 5px dashed #3D418E;
+    border-left: 5px dashed #3D418E;
+}
+
+
+/* @media (max-width: 1250px) {
+    .header-nav-link,
+    .header_account {
+        font-size: 20px;
+    }
+    .content {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    .table-date-item {
+        font-size: 20px;
+    }
+    .homework-item {
+        font-size: 20px;
+    }
+} */
