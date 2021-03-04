@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+
+
+html,  
+body {  
+    height: 100vh
+}
+
+.main,
+.main-blok {
+    min-height: 90vh;
+    height: auto;
+}
+
 body {
     font-family: "Nunito";
     color: #3D418E;
